@@ -3,5 +3,22 @@
 version = 3
 
 [[package]]
+name = "animals"
+version = "0.1.0"
+
+[[package]]
 name = "learn-rust"
+version = "0.1.0"
+dependencies = [
+ "animals",
+ "loops",
+ "travel",
+]
+
+[[package]]
+name = "loops"
+version = "0.1.0"
+
+[[package]]
+name = "travel"
 version = "0.1.0"
