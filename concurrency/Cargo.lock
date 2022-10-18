@@ -3,10 +3,6 @@
 version = 3
 
 [[package]]
-name = "animals"
-version = "0.1.0"
-
-[[package]]
 name = "cfg-if"
 version = "1.0.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -31,24 +27,10 @@ dependencies = [
 ]
 
 [[package]]
-name = "learn-rust"
-version = "0.1.0"
-dependencies = [
- "animals",
- "concurrency",
- "loops",
- "travel",
-]
-
-[[package]]
 name = "libc"
 version = "0.2.135"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "68783febc7782c6c5cb401fbda4de5a9898be1762314da0bb2c10ced61f18b0c"
-
-[[package]]
-name = "loops"
-version = "0.1.0"
 
 [[package]]
 name = "ppv-lite86"
@@ -85,10 +67,6 @@ checksum = "ec0be4795e2f6a28069bec0b5ff3e2ac9bafc99e6a9a7dc3547996c5c816922c"
 dependencies = [
  "getrandom",
 ]
-
-[[package]]
-name = "travel"
-version = "0.1.0"
 
 [[package]]
 name = "wasi"

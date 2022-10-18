@@ -7,5 +7,6 @@ edition = "2021"
 
 [dependencies]
 animals = { version = "0.1.0", path = "./animals" }
+concurrency = { version = "0.1.0", path = "./concurrency" }
 loops = { version = "0.1.0", path = "./loops" }
 travel = { version = "0.1.0", path = "./travel" }

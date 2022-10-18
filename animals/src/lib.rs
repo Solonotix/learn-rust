@@ -1,5 +1,3 @@
-use std::env;
-
 pub fn main(args: &[String]) {
     for animal in args {
         match animal.to_lowercase().as_str() {

@@ -1,6 +1,7 @@
 use std::env;
 
 use animals::main as animals;
+use concurrency::main as concurrency;
 use loops::main as loops;
 use travel::main as travel;
 
@@ -10,6 +11,7 @@ fn main() {
     match args.split_first() {
         Some((command, params)) => match command.to_lowercase().as_str() {
             "animals" => animals(params),
+            "concurrency" => concurrency(params),
             "loops" => loops(params),
             "travel" => travel(),
             _ => println!("Unsupported command: {}", command)
